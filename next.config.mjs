@@ -7,7 +7,6 @@ const __dirname = path.dirname(__filename);
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  outputFileTracingRoot: path.join(__dirname),
   output: 'standalone',
   compiler: {
     styledComponents: true
